@@ -1,0 +1,84 @@
+CSS Three Type :- inline, internal, external css.
+
+3 Selectors :- tagname, classname, id.
+
+What is Boxmodel :- {CPBM} content, padding, border, margin.
+
+Box baju baju ma lava mate :- Float - left, Float - right.
+
+2box left and 1 box right hoy to new line ma content joto hoy to :- clear-both, clear-left, clear-right.
+
+Padding 2value apo to :- TB, LR {10px, 5px}.
+
+Padding 4 value apo to :- TRBL {10px, 5px, 7px, 3px}.
+
+Padding 3 value j api hoy to :- {10px, 5px, 7px} by defualt te left ma je hoy te right ma api de.
+
+Font property :- font-size, font-family, font-weight, font-variant :- small-caps(small-caps means badha capital font and 1st word no 1 latter thodo moto avse).
+
+Background-image : url(' ')
+
+Background-repeat :- repeat, no-repeat, repeat-x, repeat-y.
+
+Background-position :- x(horizontal), y(vartical) persentage ma pan chale and px ma pan chale {50%, 30% OR 50px, 30%}.
+
+Background-size :- contain, cover
+
+Background-attachment :- scroll, fixed
+
+Background-clip :- border-box, content-box, padding-box.
+
+Background-color ma two type :- linear-gradient, radial-gradient (code copy paste in google).
+
+Display :- by defualt block, :- inline, inline-block, none(hide mate).
+
+Text property :- text-align:- by defualt(left), right, center, justify.
+
+Text decoration line :- underline, overline, line-through.
+
+Text decoration color :- yellow.
+
+Text decoration style :- dashed, dotted, double, solid.
+
+Text transform :- uppercase, lowercase, capitalize.
+
+Text indent :- 20px(paregraph ma first line ne 20px dur kare).
+
+Line height :- 30px.
+
+Text shadow :- 4px 10px green.
+
+Box shadow :- 5px 10px 5px yellow.
+
+Visibility :- visible(by defualt), hidden.
+
+List-style-type :- disc, square, circle, decimal(1,2,3), decimal-leading-zero(01,02.03), lower-alpha, upper-alpha, upper-roman, lower-roman
+
+List-style-type :- inside(by defualt), outside.
+
+letter-spacing : 20px;
+
+word-spacing: 40px;
+
+Position :- absolute, relative, fixed, sticky.
+
+Z-index : 1,2,3(jem moto number aem teni priority vadhare).
+
+Flex-diraction :- row, column, row-reverse, column-reverse.
+
+Justify-content :- center, flex-start, flex-end, space-around, space-between, space-evenly.
+
+Align-self :- center, flex-start, flex-end, self-start, self-end(self vada ae same j work kare flex ne jem).
+
+Display :- grid(niche niche box jota hoy to), inline-grid(baju baju ma jota hoy to).
+
+Grid :- row-gap, column-gap.
+
+transform :- scale(orignal height width ne change karse), scale-x, scale-y, tarnslate(movement karva mate use thy square nu circle karva), translate-x, translate-y, rotate:degree, rotate-x, rotate-y, skew:40deg(element ne strach karva mate).
+
+transition :- duration:3s, delay:5s
+
+
+
+
+
