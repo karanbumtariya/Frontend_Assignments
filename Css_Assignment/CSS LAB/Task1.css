@@ -1,0 +1,27 @@
+*{
+    justify-items: center;
+}
+.f1{
+    height: 400px;
+    width: 450px;
+    background-color: rgb(136, 135, 203);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.fild{
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn{
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    margin-left: 70px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
