@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Health Checkup Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Online Health Checkup Booking</h2>
+    <form>
+      
+      <div>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="1" max="120" placeholder="Enter your age" required>
+      </div>
+
+      <div>
+        <label for="gender">Gender</label>
+        <select id="gender" required>
+          <option value="">--Select--</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="department">Department</label>
+        <select id="department" required>
+          <option value="">--Select Department--</option>
+          <option>General Checkup</option>
+          <option>Cardiology</option>
+          <option>Dermatology</option>
+          <option>Orthopedics</option>
+          <option>Pediatrics</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="doctor">Doctor</label>
+        <select id="doctor" required>
+          <option value="">--Select Doctor--</option>
+          <option>Dr. A Sharma</option>
+          <option>Dr. B Patel</option>
+          <option>Dr. C Khan</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" required>
+      </div>
+
+      <div>
+        <label for="time">Preferred Time</label>
+        <input type="time" id="time" required>
+      </div>
+
+      <div class="full-width">
+        <label for="symptoms">Symptoms / Reason for Visit</label>
+        <textarea id="symptoms" placeholder="Describe your health issue..."></textarea>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="submit-btn">Book Appointment</button>
+        <button type="reset" class="reset-btn">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
