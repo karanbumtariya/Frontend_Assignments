@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+let num = 1;
+let sum = 0;
+
+while (num <= 20) {
+    if (num % 2 === 0) {
+        sum += num;
+    }
+    num++;
+}
+
+console.log("Sum of even numbers from 1 to 20 is:", sum);
+
+let value;
+
+do {
+    value = parseInt(prompt("Enter a number greater than 10:"));
+} while (value <= 10);
+
+console.log("You entered:", value);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        try {
+    let a = 10;
+    let b = 0;
+
+    if (b === 0) {
+        throw new Error("Cannot divide by zero!");
+    }
+
+    let result = a / b;
+    console.log("Result:", result);
+
+} catch (error) {
+    console.log("Error:", error.message);
+}
+
+    </script>
+</body>
+</html>
