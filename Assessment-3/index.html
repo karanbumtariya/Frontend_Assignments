@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Interaction Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Customer Interaction Form</h2>
+
+    <div id="message"></div>
+
+    <form id="customerForm">
+
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="fullName" placeholder="Enter full name">
+      </div>
+
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="number" id="phone" placeholder="10-digit phone number">
+      </div>
+
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" id="email" placeholder="Enter email">
+      </div>
+
+      <div class="form-group">
+        <label>Vehicle Details</label>
+        <select id="vehicle">
+          <option value="">Select vehicle</option>
+          <option value="Car">Car</option>
+          <option value="Bike">Bike</option>
+          <option value="Truck">Truck</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Complaint / Issue</label>
+        <textarea id="complaint" placeholder="Describe your issue"></textarea>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+      <a href="view.html" class="viewLink">View Submissions</a>
+    </form>
+  </div>
+
+  <script src="script.html"></script>
+</body>
+</html>
