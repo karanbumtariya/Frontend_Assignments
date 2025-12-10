@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complaint Records</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main">
+    <h2>Complaint Details</h2>
+
+    <p><b>Name:</b> <span id="showName"></span></p>
+    <p><b>Phone:</b> <span id="showPhone"></span></p>
+    <p><b>Email:</b> <span id="showEmail"></span></p>
+    <p><b>Vehicle:</b> <span id="showVehicle"></span></p>
+    <p><b>Complaint:</b> <span id="showComplaint"></span></p>
+
+    <br>
+
+    <button onclick="goBack()" class="goBack">Back</button>
+    <button onclick="clearData()" class="goBack">Clear Record</button>
+  </div>
+
+  <script>
+    let data = JSON.parse(localStorage.getItem("complaintData"));
+    if (data) {
+      document.getElementById("showName").innerText = data.name;
+      document.getElementById("showPhone").innerText = data.phone;
+      document.getElementById("showEmail").innerText = data.email;
+      document.getElementById("showVehicle").innerText = data.vehicle;
+      document.getElementById("showComplaint").innerText = data.complaint;
+    } else {
+        document.getElementById("showName").innerText = "";
+        document.getElementById("showPhone").innerText = "";
+        document.getElementById("showEmail").innerText = "";
+        document.getElementById("showVehicle").innerText = "";
+        document.getElementById("showComplaint").innerText = "";
+        alert("Record Deleted");
+    }
+
+    function goBack() {
+      window.location.href = "form.html";  
+    }
+
+    function clearData() {
+      localStorage.removeItem("complaintData");
+      location.reload();
+    }
+  </script>
+
+</body>
+</html>
